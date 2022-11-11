@@ -41,6 +41,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
+                                <img src="https://us.123rf.com/450wm/tuktukdesign/tuktukdesign1606/tuktukdesign160600109/59070192-icono-de-usuario-mujer-perfil-ejecutiva-avatar-icono-persona-en-la-ilustraci%C3%B3n-vectorial.jpg" alt="">
                             @endif
 
                             @if (Route::has('register'))
@@ -52,6 +53,7 @@
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }}
+                                    
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">

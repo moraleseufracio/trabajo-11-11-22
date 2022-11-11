@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('rosa') }}</div>
+                <div class="card-header">{{ __('termino el inicio del secion') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -26,7 +26,12 @@
 .card-header{
 
     color:#f00012;
+    font-size:200%;
 }
+.APP_NAME{
+    color: #000;
+}
+
 
 
 
